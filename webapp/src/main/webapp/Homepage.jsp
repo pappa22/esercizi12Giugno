@@ -13,6 +13,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+<form action="aggiungi" method="post">
  <p class="text-xl-center">Inserisci Nome</p>
     <input type="text" class="form-control" id="nome" name="nome" style="width:250px; height:50px;margin:auto" required="required" placeholder="Nome">
       <p class="text-xl-center">Inserisci Cognome</p>
@@ -20,7 +21,7 @@
      <p class="text-xl-center">Inserisci Numero</p>
     <input type="number" class="form-control " id="numero" name="numero" style="width:250px; height:50px;margin:auto" required="required" placeholder="Numero">
     
-     <br> <input type="submit"class="btn btn-outline-primary btn-block" style="width:150px; height:45px;margin:auto" name= action value="Aggiungi">
+      <br><input type="submit" class ="btn btn-primary btn-md"  value="Aggiungi">
   <br><br>
   <div class="container">
 		<div class="row">
@@ -39,7 +40,7 @@
 							</h5></th>
 					</tr>
 
-					<c:forEach items="${listaAUtenti}" var="app">
+					<c:forEach items="${listaUtenti}" var="app">
 
 						<tr>
 							<td><h5>
@@ -60,6 +61,10 @@
 
 							<td>
 							</c:forEach>
+							</table>
+							</div>
+							</div>
+							</div>
 </body>
 
 </html>

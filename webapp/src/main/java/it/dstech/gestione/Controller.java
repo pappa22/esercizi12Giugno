@@ -36,8 +36,7 @@ public class Controller {
 		}
 
 			public List<Utenti> stampaListaUtenti() {
-				TypedQuery<Utenti> query = em.createQuery("select u from Utente u", Utenti.class);
-				return query.getResultList();
+				return em.createQuery("select u from Utenti u", Utenti.class).getResultList();
 			}
 
 		}
@@ -45,4 +44,4 @@ public class Controller {
 		
 		
 		
-}
+
