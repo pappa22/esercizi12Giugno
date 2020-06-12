@@ -1,8 +1,8 @@
-package it.dstech.stringapalindorma;
+package it.dstech.eserciziouno;
 
 import java.util.Scanner;
 
-public class EsercizioUno {
+public class StringaPalindroma {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		String stringa = new String();
