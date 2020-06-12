@@ -23,7 +23,7 @@ public class EsercizioUno {
 				System.out.println("La parola NON è palindroma");
 			}
 			    System.out.println("Vuoi continuare? Scrivi sì");
-		} while (scanner.nextLine().equals("sì")); {
+		} while (scanner.nextLine().equals("si")); {
 	} 
 	}
 }
